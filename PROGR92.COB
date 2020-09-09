@@ -1,5 +1,5 @@
        IDENTIFICATION DIVISION.
-       PROGRAM-ID. EX01.
+       PROGRAM-ID. PROGR92.
       *AUTHOR. ANDRE LUIS DE M RODRIGUES.
       **************************************
       *    CADASTRO DE VEICULOS            *
@@ -197,7 +197,7 @@
                 PERFORM ROT-MENS THRU ROT-MENS-FIM
                 GO TO R1
              ELSE
-                MOVE "ERRO NA LEITURA ARQUIVO CADAMIGO" TO MENS
+                MOVE "ERRO NA LEITURA ARQUIVO CADVEIC" TO MENS
                 PERFORM ROT-MENS THRU ROT-MENS-FIM
                 GO TO ROT-FIM
            ELSE
