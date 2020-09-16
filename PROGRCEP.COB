@@ -2,7 +2,7 @@
        PROGRAM-ID. CADCEP.
       *AUTHOR. ANDRE LUIS DE M RODRIGUES.
       **************************************
-      *    CADASTRO DE CEPS            *
+      *         CADASTRO DE CEP            *
       **************************************
       *----------------------------------------------------------------
        ENVIRONMENT DIVISION.
@@ -47,7 +47,7 @@
       *    DISPLAY
        01 DISPESTADO    PIC X(20) VALUE SPACES.
        
-      *    CARREGA O VETOR  TABESPECIALIDADE
+      *    CARREGA O VETOR  TABESTADO
        01  TABESTADOX.
            03 FILLER  PIC X(22)   VALUE "SPSAO PAULO".
            03 FILLER  PIC X(22)   VALUE "RJRIO DE JANEIRO".
@@ -101,7 +101,7 @@
                HIGHLIGHT.
 
 
-      * DISPLAY ESPECIALISTA
+      * DISPLAY ESTADO
            05  TDISPESTADO
                LINE 17  COLUMN 25  PIC X(20)
                USING DISPESTADO.
