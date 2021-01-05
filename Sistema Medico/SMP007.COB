@@ -1,7 +1,7 @@
        IDENTIFICATION DIVISION.
        PROGRAM-ID. SMP007.
       ***********************
-      * CONSULTA DE  MECICO *
+      * CONSULTA DE  MEDICO *
       ***********************
       *----------------------------------------------------------------
        ENVIRONMENT DIVISION.
