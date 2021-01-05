@@ -1,4 +1,4 @@
-# Sistema médico em COBOL
+# Sistema médico em COBOL :stethoscope:
 
 #### EXERCÍCIO 1: CADASTRO DO MEDICO
 
